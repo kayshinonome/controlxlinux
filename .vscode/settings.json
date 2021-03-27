@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.json": "json",
+        "filesystem": "cpp",
+        "algorithm": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp"
+    },
+    "editor.formatOnSave": true
+}
