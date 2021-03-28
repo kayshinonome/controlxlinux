@@ -12,4 +12,4 @@ add_executable(controlxlinux ${source_files})
 
 target_link_libraries(${PROJECT_NAME} stdc++fs)
 
-add_compile_options(-Og -ggdb -Wall -Wextra ${platform_options})
+add_compile_options(-Og -Wall -Wextra ${platform_options})
