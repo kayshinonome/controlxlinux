@@ -17,5 +17,5 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: Linux Builds
-          path: build/controlxlinux*
+          name: Debian Package
+          path: build/controlxlinux*.deb
