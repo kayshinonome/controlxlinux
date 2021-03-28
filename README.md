@@ -13,3 +13,13 @@ While I am not responsible for any damage caused to your calculator due to this 
 controlxlinux <dtb> <initrd> <kernel> <output_file>
 
 ```
+
+## Building
+
+```sh
+mkdir build
+cd build
+cmake ..
+make
+sudo make install
+```
