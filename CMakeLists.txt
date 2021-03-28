@@ -15,3 +15,7 @@ target_link_libraries(${PROJECT_NAME} stdc++fs)
 add_compile_options(-Wall -Wextra ${platform_options})
 
 install(TARGETS controlxlinux RUNTIME DESTINATION bin)
+
+set(CPACK_GENERATOR "DEB")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "Tsuki Superior")
+include(CPack)
