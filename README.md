@@ -23,3 +23,14 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 sudo make install
 ```
+
+## Debian package
+
+You can make a debian package too
+
+```sh
+mkdir build
+cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make package
+```
