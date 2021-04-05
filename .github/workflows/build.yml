@@ -13,9 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: make
-        run: mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release && make && make package
+        run: mkdir build && cd build && cmake .. -DCMAKE_BUILD_TYPE=Release && make
       - name: Archive production artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: Debian Package
-          path: build/controlxlinux*.deb
+          name: x86_64 Build
+          path: build/controlxlinux
