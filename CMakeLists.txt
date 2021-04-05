@@ -15,7 +15,7 @@ add_executable(controlxlinux ${source_files})
 
 target_link_libraries(${PROJECT_NAME} stdc++fs)
 
-add_compile_options(-Wall -Wextra -Werror ${platform_options})
+add_compile_options(-Wall -Wextra -Werror -O2)
 
 install(TARGETS controlxlinux RUNTIME DESTINATION bin)
 
