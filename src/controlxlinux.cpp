@@ -35,9 +35,9 @@ int main(int argc, char **argv)
   if (strcmp("about", argv[1]) == 0)
   {
     cout << "controlxlinux Copyright (C) 2021 Tsuki Superior\n";
-    cout << "This program comes with ABSOLUTELY NO WARRANTY\n"
-    cout << "This is free software, and you are welcome to redistribute it\n"
-    cout << "under certain conditions.\n"
+    cout << "This program comes with ABSOLUTELY NO WARRANTY\n";
+    cout << "This is free software, and you are welcome to redistribute it\n";
+    cout << "under certain conditions.\n";
     return EXIT_FAILURE;
   }
       
