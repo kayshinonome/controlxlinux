@@ -27,7 +27,7 @@ sudo make install
 
 ## Debian package
 
-You can make a debian package too
+You can make a debian package too (recommended for debian based distros) 
 
 ```sh
 mkdir build
