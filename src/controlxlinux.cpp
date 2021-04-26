@@ -81,9 +81,9 @@ int main(int argc, char **argv)
   kernel_size = filesystem::file_size(argv[3]);
 
   // Write the sizes
-  dest.write((char *)&dtb_size, sizeof(dtb_size));
-  dest.write((char *)&kernel_size, sizeof(kernel_size));
-  dest.write((char *)&initrd_size, sizeof(initrd_size));
+  dest.write(reinterpret_cast<char *>(&dtb_size), sizeof(dtb_size));
+  dest.write(reinterpret_cast<char *>(&kernel_size), sizeof(kernel_size));
+  dest.write(reinterpret_cast<char *>(&initrd_size), sizeof(initrd_size));
 
   // Write the files
   dest << dtb_file.rdbuf();
