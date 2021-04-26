@@ -6,7 +6,8 @@
 
 A tool to help you make controlx compatible images for the TI-nspire
 
-While I am not responsible for any damage caused to your calculator due to this tool, I can inform you that this tool was indeed tested on real hardware, and worked perfectly.
+While I am not responsible for any damage caused to your calculator due to this tool,
+I can inform you that this tool was indeed tested on real hardware, and worked perfectly.
 
 ## Usage
 
