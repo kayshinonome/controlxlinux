@@ -19,7 +19,7 @@ controlxlinux <dtb> <initrd> <kernel> <output_file>
 
 ```sh
 mkdir build
-cd build
+cd build || exit 1
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 sudo make install
@@ -31,7 +31,7 @@ You can make a debian package too (recommended for debian based distros)
 
 ```sh
 mkdir build
-cd build
+cd build || exit 1
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make package
 ```
