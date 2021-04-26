@@ -45,6 +45,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./controlxlinux.deb
+        asset_path: ./controlxlinux-0.1.1-Linux.deb
         asset_name: controlxlinux-x64.deb
         asset_content_type: application/zip
