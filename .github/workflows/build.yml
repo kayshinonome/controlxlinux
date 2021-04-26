@@ -36,7 +36,7 @@ jobs:
         tag_name: controlxlinux-latest
         release_name: ControlXLinux Latest
         draft: false
-        prerelease: true
+        prerelease: false
         body: |
           Check commits for changes
     - name: Upload Release Asset
