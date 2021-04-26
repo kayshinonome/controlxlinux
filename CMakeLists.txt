@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 string(TIMESTAMP TODAY "%Y%m%d")
-project("controlxlinux" VERSION ${TODAY})
+project("controlxlinux")
 set(CMAKE_CXX_STANDARD 17)
 include_directories("include")
 file(GLOB source_files "src/*.cpp")
