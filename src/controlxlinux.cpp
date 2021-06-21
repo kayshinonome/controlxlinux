@@ -31,7 +31,7 @@ int main(int argc, char **argv)
     cerr << "Usage: " << argv[0] << " <dtb> <initrd> <kernel> <output_file>\n";
     return EXIT_FAILURE;
   }
-  
+
   if (strcmp("about", argv[1]) == 0)
   {
     cout << "controlxlinux Copyright (C) 2021 Tsuki Superior\n";
@@ -40,7 +40,7 @@ int main(int argc, char **argv)
     cout << "under certain conditions.\n";
     return EXIT_FAILURE;
   }
-      
+
   // Open all of the file
   dest.open(argv[4], ios::binary);
   dtb_file.open(argv[1], ios::binary);
